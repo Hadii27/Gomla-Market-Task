@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<system.webServer>
+		<security>
+			<requestFiltering>
+				<!-- 300 MB max -->
+				<requestLimits maxAllowedContentLength="314572800" />
+			</requestFiltering>
+		</security>
+	</system.webServer>
+</configuration>

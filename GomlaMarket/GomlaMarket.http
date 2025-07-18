@@ -1,0 +1,6 @@
+@GomlaMarket_HostAddress = http://localhost:5170
+
+GET {{GomlaMarket_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
